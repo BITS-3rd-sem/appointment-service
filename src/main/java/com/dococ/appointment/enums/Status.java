@@ -1,4 +1,4 @@
-package com.dococ.appointment.emums;
+package com.dococ.appointment.enums;
 
 public enum Status {
     SCHEDULED,

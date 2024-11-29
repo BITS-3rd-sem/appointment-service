@@ -2,7 +2,7 @@ package com.dococ.appointment.services.impl;
 
 import com.dococ.appointment.dao.AppointmentDao;
 import com.dococ.appointment.dto.PaginatedAppointmentDTO;
-import com.dococ.appointment.emums.Status;
+import com.dococ.appointment.enums.Status;
 import com.dococ.appointment.entity.Appointment;
 import com.dococ.appointment.exceptions.IllegalDataException;
 import com.dococ.appointment.exceptions.ResourceNotFoundException;
