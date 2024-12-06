@@ -19,7 +19,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private final String validationUrl = "http://localhost:8081/users/token/validate";
+    private final String validationUrl = "http://localhost:8081/api/v1/auth/token/validate";
 
 
     private User validateRequest(String token) {
